@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.config();
+console.log(dotenv);
 
 console.log(process.env.DB_USERNAME);
 console.log(process.env.DB_PASSWORD);
